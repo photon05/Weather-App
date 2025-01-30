@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='App'>
       <h1 className='heading'>This is the Weather App</h1>
+      <h2>Hello There</h2>
       <Weather/>
     </div>
   )
