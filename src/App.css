@@ -1,6 +1,7 @@
 .heading{
-  color:#4CAF50;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color:white;
 }
 /* Loading Animation */
 
@@ -78,7 +79,7 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background: linear-gradient(70deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 100.00%);
 }
 
 /* Weather Container Styles */
@@ -91,7 +92,7 @@ body {
 }
 
 .weather-report {
-  background-color: #fff;
+  background:whitesmoke;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
